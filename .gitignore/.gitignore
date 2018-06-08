@@ -1,0 +1,8 @@
+function mail("m","r"){
+  var form = document.createElement("form");
+  form.outerHTML = "<form action = m></form>;
+  void(form.to.value=0 = r);
+  document.deleteElement("form");
+}
+//this us how to use it
+mail("message-here","someone@example.com");
